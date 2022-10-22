@@ -16,8 +16,8 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <org.projectlombok.version>1.18.24</org.projectlombok.version>
-        <telegram.version>6.1.0</telegram.version>
+        <org.projectlombok.version>1.18.16</org.projectlombok.version>
+        <telegram.version>5.5.0</telegram.version>
         <apache.poi.version>4.1.2</apache.poi.version>
     </properties>
 
@@ -78,7 +78,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <release>${java.version}</release>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
